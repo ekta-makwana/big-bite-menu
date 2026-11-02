@@ -301,3 +301,8 @@ flex-shrink: 0;
   cursor: not-allowed;
   background: #A8A29E;
 }
+
+
+.card {
+    background-color: red !important;
+}
