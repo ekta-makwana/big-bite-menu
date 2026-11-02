@@ -4,24 +4,8 @@ html, body {
     overflow-y: auto;
     
 }
-body{
-  /* background:linear-gradient(to right,rgb(23, 46, 65),rgb(97, 118, 16)); */
-     background:#FFF8EF !important;
-}
 
-/* .parent {
-min-height: 100vh;
-width: 100%;
-background-color: #111;
 
-padding: 30px;
-display: grid;
-grid-template-columns: repeat(3,1fr);
-
-justify-content: center;
-align-content: start;
-gap:150px;
-} */
 
 
 .parent{
@@ -38,7 +22,6 @@ gap:150px;
 .card {
 width: 295px;
 min-height: 350px;
-background-color: #eadee2  !important; 
 border-radius: 25px;
 padding: 12px;
 position: relative;
@@ -302,7 +285,10 @@ flex-shrink: 0;
   background: #A8A29E;
 }
 
+body {
+    background-color: #FFF8EF !important;
+}
 
 .card {
-    background-color: red !important;
+    background-color: #eadee2 !important;
 }
