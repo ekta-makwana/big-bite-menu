@@ -248,16 +248,22 @@ flex-shrink: 0;
     top: -80px !important;
 }
 
+
+
 /* Responsive */
+
 @media (max-width: 1100px) {
     .parent {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 295px);
+        gap: 80px;
     }
 }
 
 @media (max-width: 700px) {
     .parent {
-        grid-template-columns: 1fr;
+        grid-template-columns: 295px;
+        gap: 80px;
+        padding-top: 100px;
     }
 }
 
