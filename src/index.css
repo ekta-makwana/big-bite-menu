@@ -285,10 +285,14 @@ flex-shrink: 0;
   background: #A8A29E;
 }
 
-body {
+html, body {
     background-color: #FFF8EF !important;
 }
 
+.parent {
+    background-color: transparent !important;
+}
+
 .card {
-    background-color: #eadee2 !important;
+    background-color: #EADEE2 !important;
 }
